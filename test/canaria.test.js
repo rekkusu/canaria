@@ -24,3 +24,12 @@ test('canaria#require(callback)', function() {
   });
 });
 
+test('canaria#require(array)', function() {
+  expect(2);
+  stop();
+  canaria.require(['array1', 'array2'], function(){
+    start();
+    ok(canaria.array1, 'array1 loaded');
+    ok(canaria.array2, 'array2 loaded');
+  });
+});
