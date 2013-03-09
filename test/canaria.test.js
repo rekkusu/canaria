@@ -23,3 +23,4 @@ test('canaria#require(callback)', function() {
     ok(canaria.some2, 'some2 loaded');
   });
 });
+
