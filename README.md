@@ -3,7 +3,8 @@
 ## Usage
 ```html
 <!-- index.html -->
-<script src="canaria.js" type="text/javascript></script>
+<script src="canaria.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
 ```
 
 ```javascript
